@@ -1,0 +1,69 @@
+.card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-width: 260px;
+}
+
+.header {
+  flex: 1;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #181818;
+}
+
+.meta {
+  font-size: 0.95rem;
+  color: #888;
+  margin-top: 0.25rem;
+}
+
+.playBtn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.progressRing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.ringBg {
+  stroke: #eee;
+}
+
+.ringFg {
+  stroke: #181818;
+  transition: stroke-dashoffset 0.3s linear;
+}
+
+.playIcon {
+  font-size: 1.5rem;
+  color: #181818;
+  z-index: 2;
+}
+
+.pauseIcon {
+  font-size: 1.5rem;
+  color: #181818;
+  z-index: 2;
+} 

@@ -1,0 +1,29 @@
+body, .App {
+  background: #111;
+  min-height: 100vh;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.folders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media (max-width: 900px) {
+  .folders {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 0.5rem 0;
+  }
+  .folders {
+    gap: 1.2rem;
+  }
+}
